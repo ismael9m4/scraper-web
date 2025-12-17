@@ -1,13 +1,24 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 URL = "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+
+# Regex robusta:
+# - bibliotecario
+# - bibliotecaria
+# - bibliotecario/a
+# - sin importar mayúsculas
+PATRON_CARGO = re.compile(
+    r"\bBIBLIOTECARI(O|A)(/A)?\b",
+    re.IGNORECASE
+)
 
 def obtener_puestos():
     session = requests.Session()
 
     # 1. GET inicial
-    r = session.get(URL)
+    r = session.get(URL, timeout=30)
     soup = BeautifulSoup(r.text, "html.parser")
 
     # 2. Extraer campos ocultos
@@ -20,7 +31,7 @@ def obtener_puestos():
     }
 
     # 3. POST con búsqueda
-    r = session.post(URL, data=data)
+    r = session.post(URL, data=data, timeout=30)
     soup = BeautifulSoup(r.text, "html.parser")
 
     tabla = soup.find("table", id="Contenido_gvCargos")
@@ -30,13 +41,22 @@ def obtener_puestos():
     puestos = []
 
     for fila in tabla.find_all("tr")[1:]:
-        c = [td.get_text(strip=True) for td in fila.find_all("td")]
+        celdas = [td.get_text(strip=True) for td in fila.find_all("td")]
+        if len(celdas) < 10:
+            continue
+
+        cargo = celdas[5].strip()
+
+        # 🔴 FILTRO DEFINITIVO (ANTI FALSOS POSITIVOS)
+        if not PATRON_CARGO.search(cargo):
+            continue
+
         puestos.append({
-            "institucion": c[3],
-            "cargo": c[5],
-            "horas": c[6],
-            "curso": f"{c[7]} {c[8]}",
-            "turno": c[9]
+            "institucion": celdas[3],
+            "cargo": cargo,
+            "horas": celdas[6],
+            "curso": f"{celdas[7]} {celdas[8]}",
+            "turno": celdas[9]
         })
 
     return puestos

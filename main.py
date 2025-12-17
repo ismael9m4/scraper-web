@@ -28,14 +28,24 @@ set_anterior = {json.dumps(p, sort_keys=True) for p in puestos_anteriores}
 nuevos = set_actual - set_anterior
 
 if nuevos:
-    mensaje = f"📚 *NUEVOS puestos de BIBLIOTECARIO* ({len(nuevos)})\n\n"
+    mensaje = f"📚 *NUEVOS PUESTOS DE BIBLIOTECARIO* ({len(nuevos)})\n\n"
+
     for n in nuevos:
         p = json.loads(n)
+
         mensaje += (
-            f"🏫 *Institución:* {p['institucion']}\n"
-            f"📖 *Cargo:* {p['cargo']} | {p['horas']} hs\n"
-            f"🎓 *Curso:* {p['curso']} ({p['turno']})\n\n"
+            f"🆔 *Reg:* {p.get('reg', 'N/D')}\n"
+            f"🏫 *Institución:* {p.get('institucion', 'N/D')}\n"
+            f"📅 *Vigencia:* {p.get('vigencia_desde', 'N/D')} → {p.get('vigencia_hasta', 'N/D')}\n"
+            f"📍 *Domicilio:* {p.get('domicilio', 'N/D')}\n"
+            f"🕒 *Turno:* {p.get('turno', 'N/D')}\n"
+            f"⏰ *Horario:* {p.get('horario', 'N/D')}\n"
+            f"📌 *Carácter:* {p.get('caracter', 'N/D')}\n"
+            f"📝 *Motivo:* {p.get('motivo', 'N/D')}\n\n"
+            f"🔗 Para más info:\n{p.get('url', '')}\n\n"
+            "────────────────────\n\n"
         )
+
     enviar_mensaje(mensaje)
 
 # Guardar nuevo estado

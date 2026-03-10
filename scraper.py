@@ -41,11 +41,11 @@ def obtener_puestos():
     puestos = []
 
     for fila in tabla.find_all("tr")[1:]:
-        celdas = [td.get_text(strip=True) for td in fila.find_all("td")]
-        if len(celdas) < 15:
+        cols = [td.get_text(strip=True) for td in fila.find_all("td")]
+        if len(cols) < 15:
             continue
 
-        cargo = celdas[5].strip()
+        cargo = cols[5].strip()
 
         # 🔴 FILTRO DEFINITIVO (ANTI FALSOS POSITIVOS)
         if not PATRON_CARGO.search(cargo):

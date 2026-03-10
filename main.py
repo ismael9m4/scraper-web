@@ -36,14 +36,15 @@ if nuevos:
         mensaje += (
             f"🆔 *Reg:* {p.get('reg', 'N/D')}\n"
             f"🏫 *Institución:* {p.get('institucion', 'N/D')}\n"
+            f"📚 *Cargo:* {p.get('cargo', 'N/D')}\n"
             f"📅 *Vigencia:* {p.get('vigencia_desde', 'N/D')} → {p.get('vigencia_hasta', 'N/D')}\n"
             f"📍 *Domicilio:* {p.get('domicilio', 'N/D')}\n"
             f"🕒 *Turno:* {p.get('turno', 'N/D')}\n"
             f"⏰ *Horario:* {p.get('horario', 'N/D')}\n"
             f"📌 *Carácter:* {p.get('caracter', 'N/D')}\n"
+            f"📅 *Desde:* {p.get('desde', 'N/D')}\n"
+            f"📅 *Hasta:* {p.get('hasta', 'N/D')}\n"
             f"📝 *Motivo:* {p.get('motivo', 'N/D')}\n\n"
-            f"🔗 Para más info:\n{p.get('url', '')}\n\n"
-            "────────────────────\n\n"
         )
 
     enviar_mensaje(mensaje)

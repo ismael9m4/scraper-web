@@ -42,7 +42,7 @@ def obtener_puestos():
 
     for fila in tabla.find_all("tr")[1:]:
         celdas = [td.get_text(strip=True) for td in fila.find_all("td")]
-        if len(celdas) < 10:
+        if len(celdas) < 15:
             continue
 
         cargo = celdas[5].strip()
@@ -51,12 +51,22 @@ def obtener_puestos():
         if not PATRON_CARGO.search(cargo):
             continue
 
-        puestos.append({
-            "institucion": celdas[3],
-            "cargo": cargo,
-            "horas": celdas[6],
-            "curso": f"{celdas[7]} {celdas[8]}",
-            "turno": celdas[9]
-        })
+        puesto = {
+            "vigencia_desde": cols[0].get_text(strip=True),
+            "vigencia_hasta": cols[1].get_text(strip=True),
+            "reg": cols[2].get_text(strip=True),
+            "institucion": cols[3].get_text(strip=True),
+            "domicilio": cols[4].get_text(strip=True),
+            "cargo": cols[5].get_text(strip=True),
+            "turno": cols[9].get_text(strip=True),
+            "horario": cols[10].get_text(strip=True),
+            "caracter": cols[11].get_text(strip=True),
+            "desde": cols[12].get_text(strip=True),
+            "hasta": cols[13].get_text(strip=True),
+            "motivo": cols[14].get_text(strip=True),
+            "url": URL
+        }
+
+        puestos.append(puesto)
 
     return puestos

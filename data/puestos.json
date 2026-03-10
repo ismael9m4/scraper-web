@@ -1,9 +1,17 @@
 [
   {
+    "vigencia_desde": "10/3/2026",
+    "vigencia_hasta": "12/3/2026",
+    "reg": "6",
     "institucion": "COLEGIO SECUNDARIO N 56",
+    "domicilio": "CALLE SIN NOMBRE ENTRE USHUAIA Y TIERRA DEL FUEGO-LOTEO SAN LUIS-EL CARMEN",
     "cargo": "BIBLIOTECARIO/A",
-    "horas": "0",
-    "curso": " ",
-    "turno": "MAÑANA"
+    "turno": "MAÑANA",
+    "horario": "LUN A VIE 07:50 A 13:00",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
   }
 ]

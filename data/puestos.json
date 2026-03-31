@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "31/3/2026",
+    "vigencia_hasta": "6/4/2026",
+    "reg": "5",
+    "institucion": "ESCUELA PROVINCIAL AGROTÉCNICA N 11",
+    "domicilio": "PUEBLO NUEVO S/N - VINALITO",
+    "cargo": "BIBLIOTECARIA/O",
+    "turno": "TARDE",
+    "horario": "LUN A VIE 13:30 A 18:00",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "ICL/2027",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

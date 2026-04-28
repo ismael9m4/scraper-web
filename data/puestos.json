@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "28/4/2026",
+    "vigencia_hasta": "30/4/2026",
+    "reg": "6",
+    "institucion": "COLEGIO SECUNDARIO N 35",
+    "domicilio": "BARRIO NAVEA S/N-LOS ALISOS",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "TARDE",
+    "horario": "LUN A VIE 13:30 A 18:30",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

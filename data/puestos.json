@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "5/5/2026",
+    "vigencia_hasta": "7/5/2026",
+    "reg": "4",
+    "institucion": "ESCUELA PROVINCIAL DE COMERCIO N 7 SAN MARCELINO CHAMPAGNAT",
+    "domicilio": "ECUADOR 575 B SANTA ROSA DE LIMA-SAN PEDRO",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "MAÑANA",
+    "horario": "LUN A VIE 07:30 A 12:40",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

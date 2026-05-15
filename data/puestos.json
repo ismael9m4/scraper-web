@@ -1,20 +1,5 @@
 [
   {
-    "vigencia_desde": "12/5/2026",
-    "vigencia_hasta": "14/5/2026",
-    "reg": "6",
-    "institucion": "ESCUELA DE COMERCIO N 1 JOSÉ MANUEL ESTRADA",
-    "domicilio": "BUSTAMANTE N 605 B CENTRO-PERICO",
-    "cargo": "BIBLIOTECARIO/A",
-    "turno": "MAÑANA",
-    "horario": "LUN A VIE 08:00 A 13:05",
-    "caracter": "INTERINO",
-    "desde": "TOMA DE POSESIÓN",
-    "hasta": "CONTINÚA",
-    "motivo": "JUBILACIÓN",
-    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
-  },
-  {
     "vigencia_desde": "14/5/2026",
     "vigencia_hasta": "18/5/2026",
     "reg": "2",
@@ -57,6 +42,51 @@
     "desde": "TOMA DE POSESIÓN",
     "hasta": "CONTINÚA",
     "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  },
+  {
+    "vigencia_desde": "14/5/2026",
+    "vigencia_hasta": "18/5/2026",
+    "reg": "6",
+    "institucion": "COLEGIO SECUNDARIO N 38",
+    "domicilio": "RUTA 53 B SAN FRANCISCO DE ASIS-LAS PAMPITAS-MONTERRICO",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "MAÑANA",
+    "horario": "LUN A VIE 08:00 A 13:00",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  },
+  {
+    "vigencia_desde": "14/5/2026",
+    "vigencia_hasta": "18/5/2026",
+    "reg": "6",
+    "institucion": "ESCUELA PROVINCIAL DE COMERCIO N 2 DR MANUEL BELGRANO",
+    "domicilio": "AV MARTIJENA ESQ AV CATALANO-PALPALÁ",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "TARDE",
+    "horario": "LUN A VIE 13:30 A 18:30",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  },
+  {
+    "vigencia_desde": "14/5/2026",
+    "vigencia_hasta": "18/5/2026",
+    "reg": "6",
+    "institucion": "ESCUELA PROVINCIAL DE COMERCIO N 2 DR MANUEL BELGRANO",
+    "domicilio": "AV MARTIJENA ESQ AV CATALANO-PALPALÁ",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "NOCHE",
+    "horario": "LUN A VIE 19:00 A 23:10",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
     "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
   }
 ]

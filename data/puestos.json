@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "21/5/2026",
+    "vigencia_hasta": "26/5/2026",
+    "reg": "3",
+    "institucion": "COLEGIO SECUNDARIO N 23 DR RENÉ G FAVALORO",
+    "domicilio": "AV PEDETTI S/N RUTA PROV N 35 KM 45-OCLOYAS",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "TARDE",
+    "horario": "LUN A VIE 13:30 A 18:30",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

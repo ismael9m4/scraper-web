@@ -13,5 +13,35 @@
     "hasta": "CONTINÚA",
     "motivo": "RENUNCIA",
     "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  },
+  {
+    "vigencia_desde": "21/5/2026",
+    "vigencia_hasta": "26/5/2026",
+    "reg": "6",
+    "institucion": "ESCUELA PROVINCIAL DE COMERCIO N 2 DR MANUEL BELGRANO",
+    "domicilio": "AV MARTIJENA ESQ AV CATALANO-PALPALÁ",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "TARDE",
+    "horario": "LUN A VIE 13:30 A 18:30",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  },
+  {
+    "vigencia_desde": "21/5/2026",
+    "vigencia_hasta": "26/5/2026",
+    "reg": "6",
+    "institucion": "ESCUELA PROVINCIAL DE COMERCIO N 2 DR MANUEL BELGRANO",
+    "domicilio": "AV MARTIJENA ESQ AV CATALANO-PALPALÁ",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "NOCHE",
+    "horario": "LUN A VIE 19:00 A 23:10",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "JUBILACIÓN",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
   }
 ]

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "9/6/2026",
+    "vigencia_hasta": "11/6/2026",
+    "reg": "2",
+    "institucion": "COLEGIO SECUNDARIO N 44",
+    "domicilio": "LOCALIDAD DE VARAS",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "MAÑANA",
+    "horario": "LUN A VIE 08:00 A 13:00",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

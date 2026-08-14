@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "13/8/2026",
+    "vigencia_hasta": "17/8/2026",
+    "reg": "4",
+    "institucion": "COLEGIO SECUNDARIO N 15 PADRE MIGUEL ANGEL AQUINO",
+    "domicilio": "SAN JORGE S/N B SAN CAYETANO - SAN PEDRO",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "MAÑANA",
+    "horario": "LUN A VIE 07:30 A 12:35",
+    "caracter": "INTERINO",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "CONTINÚA",
+    "motivo": "RENUNCIA",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]

@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "vigencia_desde": "25/8/2026",
+    "vigencia_hasta": "27/8/2026",
+    "reg": "3",
+    "institucion": "ESCUELA NORMAL JUAN I GORRITI",
+    "domicilio": "SAN MARTÍN N 750 B CENTRO",
+    "cargo": "BIBLIOTECARIO/A",
+    "turno": "TARDE",
+    "horario": "LUN, MIE, JUE Y VIE 13:30 A 18:30-MAR 13:30 A 19:10",
+    "caracter": "SUPLENTE",
+    "desde": "TOMA DE POSESIÓN",
+    "hasta": "MIENTRAS DURE LA LICENCIA",
+    "motivo": "LIC ART 8° A",
+    "url": "http://desecvacantes.jujuy.edu.ar/FormPublic/frmDSecSel.aspx"
+  }
+]
